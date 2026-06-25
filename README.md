@@ -96,21 +96,3 @@ Durante a execucao completa, as primeiras instrucoes mostram carregamento em
 frames livres. Depois que os 8 frames ficam ocupados, novas paginas provocam
 substituicao pelo criterio LRU. Ao final, o simulador tambem exibe um resumo
 com total de acessos, hits, page faults, substituicoes por LRU e frames usados.
-
-## Pontos atendidos dos criterios de avaliacao
-
-- Simula memoria principal de 64 KB.
-- Simula memoria virtual de 1 MB, com enderecamento virtual por processo.
-- Usa paginas e frames de 8 KB.
-- Usa 128 paginas virtuais e 8 frames fisicos.
-- Simula dois processos leves.
-- Cada processo tem conteudo associado e exibido na saida.
-- Mantem tabela de paginas por processo.
-- Traduz endereco virtual para endereco fisico.
-- Detecta hit e page fault.
-- Carrega paginas em frames livres.
-- Substitui paginas quando a memoria principal esta cheia.
-- Implementa e documenta LRU.
-- Exibe processo, endereco virtual, pagina, deslocamento, status, frame,
-  endereco fisico e conteudo acessado a cada instrucao.
-- Possui demonstracao deterministica e testes simples.
